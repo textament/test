@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/home_box"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dp" >
+        
+        
+          <FrameLayout
+                android:id="@+id/frameLayout1"
+                android:layout_marginTop="10dp"
+                android:layout_width="105dp"
+                android:layout_height="105dp" >
+
+                <ImageView
+		            android:id="@+id/main_img"
+		            android:layout_width="100dp"
+		            android:layout_height="100dp"
+		        
+		            android:scaleType="fitXY"
+		            android:src="@drawable/defaule_img" />
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/biank" />
+
+            </FrameLayout>
+
+
+       
+
+        <TextView
+            android:id="@+id/main_content1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/main_name_ly"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/frameLayout1"
+            android:ellipsize="end"
+            android:paddingTop="10dp"
+            android:singleLine="true"
+            android:text="阿萨德发生的萨达四大四大四大耍得"
+            android:textColor="@color/title_fontcolor"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/main_content1"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/frameLayout1"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="原价:"
+                    android:textColor="@color/graycc"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="1dp" />
+
+                <TextView
+                    android:id="@+id/main_amount1"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="20"
+                    android:textColor="@color/graycc"
+                    android:textSize="16sp" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:gravity="center|right"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="活动价:"
+                      android:gravity="right"
+                    android:textColor="@color/font_list_color"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="1dp" />
+
+                <TextView
+                    android:id="@+id/main_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="20"
+                      android:gravity="right"
+                    android:textColor="@color/font_list_color"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:visibility="gone"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/main_type1"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_alignParentRight="true"
+                    android:gravity="right|top"
+                    android:paddingRight="5dp"
+                    android:text="加载中"
+                    android:textColor="#b48553"
+                    android:textSize="16sp" >
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+        
+         <LinearLayout 
+              android:id="@+id/main_name_ly"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+           android:layout_toRightOf="@id/frameLayout1"
+            >
+        
+         <TextView
+            android:id="@+id/main_name1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:paddingTop="10dp"
+            android:layout_weight=".4"
+            android:layout_marginLeft="5dp"
+            android:gravity="left|center"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:text="加载中"
+            android:textColor="@color/graydk"
+            android:textSize="16sp" />
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+              android:layout_weight=".6"
+              android:orientation="vertical"
+              android:gravity="center|right"
+            >
+              <TextView
+	            android:id="@+id/main_btn"
+	            android:layout_width="wrap_content"
+	            android:layout_height="40dp"
+	            android:background="@drawable/red_button_selector"
+	            android:gravity="center"
+	            android:layout_marginTop="5dp"
+	            android:paddingLeft="8dp"
+	            android:paddingRight="8dp"
+	            android:singleLine="true"
+	            android:text="加入购物车"
+	            android:textColor="@color/white"
+	            android:textSize="14sp" />
+            
+        </LinearLayout>
+
+      </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

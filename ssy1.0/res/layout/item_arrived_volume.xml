@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <RelativeLayout
+        android:id="@+id/vol_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/vol_bgcolor_ly"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="11dp"
+            android:layout_marginRight="13dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/volume_color_red"
+            android:gravity="center"
+            android:paddingTop="5dp" >
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:gravity="center"
+              >
+
+              <TextView
+                  android:id="@+id/arrived_volume_amount"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/how_yuan"
+                  android:textColor="@color/white"
+                  android:textSize="23sp"
+                  />
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="15dp"
+                  android:layout_marginTop="5dp"
+                  android:textColor="@color/white"
+                  android:text="抵用卷"
+                  />
+
+              </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="15dp"
+                android:background="#FF9696"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="15dp"
+                android:gravity="center"
+                >
+
+                <TextView
+                    android:id="@+id/my_arrived_volume_time_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+
+                    android:gravity="center"
+
+                    android:text="使用期限:2015-02-10~~2015-02-10"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/my_arrived_volume_remark_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+
+                    android:ellipsize="end"
+                    android:text="@string/my_red_remark"
+                    android:visibility="visible"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+             </LinearLayout>
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="11dp"
+            android:background="@color/white"
+            android:gravity="center"
+            />
+
+        <ImageView
+            android:id="@+id/vol_img"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="11dp"
+            android:src="@drawable/volume_red"
+            android:gravity="center"
+            />
+        <ImageView
+            android:id="@+id/state_img"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="11dp"
+            android:src="@drawable/use"
+            android:visibility="gone"
+            android:gravity="center"
+            />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

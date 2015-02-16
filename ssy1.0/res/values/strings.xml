@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">善食家</string>
+    <!-- buyer talkingdata_id 35863707F0CBB1418A80721A27F7F56F -->
+    <string name="talking_id">80F19EA8AF0671BE1A762EECB4C740E8</string>
+    <string name="baidu_map_key">EC83AEFA0BEC054A8A0392BA78C67E4828D3A9E5</string>
+    <string name="wx_appid">wx65f1628cc2315d92</string>
+    <string name="wx_appkey">u9U8cR1Agkng3XcF04zz92w8feTsoGPvMmkTH8PqzwvGf9VR5fWX64PVJgI7TfMltw8cHuOQ4klTlYH6yZPY411eljGcbmnbtG7jmg4dc3XjHOokdRQ0XU1xij0Xi4de</string>
+    <string name="wx_PartnerID">1218560001</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="skip">跳过</string>
+    <string name="done">完成</string>
+    <string name="back">返回</string>
+    <string name="warnning">警告</string>
+    <string name="next">下一步</string>
+    <string name="default_short_des">获取中</string>
+    <string name="default_middle_des">正在获取中</string>
+    <string name="default_long_des">正在获取中, 请稍候…</string>
+    <string name="i_need">我需要:%1$s</string>
+    <string name="userid_found">获取信息中, 请稍候…</string>
+    <string name="logining">使用%s帐号登录中…</string>
+    <string name="auth_cancel">授权操作已取消</string>
+    <string name="auth_error">授权操作遇到错误，请阅读Logcat输出</string>
+    <string name="auth_complete">授权成功，正在跳转登录操作…</string>
+    <string name="if_register_needed">如果您需要注册功能…</string>
+    <string name="after_auth">一般来说第三方登录时，第三方平台已经为您完成用户身份校验，您可以放心让用户登录。\n\n但如果您需要判断用户是否为新用户，可以在授权操作完成后，将用户的信息通过字段“HashMap userInfo”携带给login方法。客户端通过“String userId”执行登录请求，如果服务端判定此userId为未注册用户，可以将userInfo发送给注册接口，获取用户在此平台上的昵称、头像等数据，然后执行注册</string>
+
+    <!-- 支付 START -->
+    <string name="reward_way_title">悬赏方式</string>
+    <string name="reward_way_money">赏金：</string>
+    <string name="reward_way">您希望以何种方式分配这笔赏金？</string>
+    <string name="reward_single">单人独享奖金</string>
+    <string name="reward_way_per">计件，合格一件支付一件</string>
+    <string name="reward_per">每件：</string>
+    <string name="guarantee_title">托管赏金</string>
+    <string name="guarantee_tip">托管赏金不会直接支付给威客，若零投标将全额退还。</string>
+    <string name="guarantee_money">应 付 担 保 金：</string>
+    <string name="rest_money">您的账户余额：</string>
+    <string name="choose_pay_way">选择支付方式：</string>
+    <string name="pay_way_rest">余额支付</string>
+    <string name="pay_way_website">稍后在网站支付</string>
+    <string name="pay_way_alipay">全部使用支付宝支付</string>
+    <string name="pay_way_yiji">使用网银支付</string>
+    <string name="not_enough_rest">您的账户余额不足，暂时无法支付</string>
+    <string name="pay_title">余额支付</string>
+    <string name="deal_info_confirm">请确认交易信息</string>
+    <string name="deal_name">交易名称：%1$s</string>
+    <string name="deal_money">交易金额：</string>
+    <string name="bind_phone_msg">支付需短信验证，还未绑定手机号码？</string>
+    <string name="bind_phone_now">现在去绑定手机号码</string>
+    <string name="not_pay_yet">暂不支付</string>
+    <string name="vcode_sent_msg">支付需短信验证，验证码将发送至 </string>
+    <string name="vcode_input_hint">请输入短信验证码 </string>
+    <string name="vcode_get">获取短信验证码 </string>
+    <string name="vcode_reget">重新获取(%1$s) </string>
+    <string name="vcode_reget_static">重新获取</string>
+    <string name="pay_confirm">确认支付 </string>
+    <string name="pay_succeed_smg">恭喜您，支付成功！</string>
+    <string name="deal_number">交易号：%1$s</string>
+    <string name="deal_msg">太赞了，您已成功托管赏金%1$s元，您的需求会得到更多关注！！</string>
+    <string name="see_req_info">查看需求详情</string>
+    <string name="pay_success_title">支付成功</string>
+    <string name="not_mod_msg">亲，赏金总额要是单价的整数倍哦~</string>
+    <string name="empty_msg">金额需要是1~7位数字组成的整数哦~</string>
+    <string name="pay_help_title">网站支付提示</string>
+    <string name="pay_help_msg">如何在网站支付？</string>
+    <string name="i_know_msg">好的，我知道了</string>
+    <string name="confirm_install_hint">"安装提示"</string>
+    <string name="confirm_install">"为保证您的交易安全，需要您安装支付宝安全支付服务，才能进行付款。\n\n点击确定，立即安装。"</string>
+    <string name="check_sign_failed">您的订单信息已被非法篡改。</string>
+    <string name="remote_call_failed">调用支付宝服务失败</string>
+    <string name="combine_pay_msg">余额支付部分，剩余%1$s元用支付宝支付</string>
+    <!-- 支付 END -->
+    <string name="search_error_data">载入失败，轻触刷新</string>
+
+    <!-- 页码（图片浏览器） -->
+    <string name="pic_page">%1$s / %2$s</string>
+    <!-- im -->
+    <color name="im_alpha">#00000000</color>
+    <color name="im_alpha50">#50000000</color>
+    <color name="im_alpha80">#80000000</color>
+    <color name="im_grayselectbg">#FFDCDCDC</color>
+    <color name="im_black">#000</color>
+    <!--  -->
+    <string name="order_total">共 %1$s 件</string>
+    <string name="order_total_amount">总金额:￥%1$s</string>
+    <string name="order_time">下单时间: %1$s</string>
+    <string name="order_num">数量: %1$s</string>
+    <string name="address_username">取菜人:%1$s</string>
+    <string name="address_phone">电话:%1$s</string>
+    <string name="address_order">收货地址:%1$s</string>
+    <string name="desc_shrinkup">收起</string>
+    <string name="desc_spread">显示更多</string>
+
+    <!-- 订单完成页 -->
+    <string name="store_num">订单号：      %1$s</string>
+    <string name="pay_state">支付状态：  %1$s</string>
+    <string name="order_state">订单状态：  %1$s</string>
+    <string name="order_finish_time">收货/取菜时间：%1$s</string>
+    <string name="ordering_time">下单时间： %1$s</string>
+    <string name="store_phone">商铺电话：  %1$s</string>
+    <string name="send_info">配送信息:%1$s</string>
+
+    <string-array name="address_xiaoqu">
+        <item>鲁能新城</item>
+        <item>其他小区</item>
+    </string-array>
+    
+    <!-- 用户中心 -->
+    <string name="how_sheet"> %1$s张 </string>
+    <string name="how_yuan"> %1$s元 </string>
+    <string name="duihuan_num">兑换码:%1$s</string>
+    <string name="use_address">使用地址:%1$s</string>
+    <string name="my_red_remark">说明: %1$s</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

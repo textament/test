@@ -1,0 +1,322 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="animStyle" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <!-- <item name="android:indeterminateDrawable">@anim/bajieloading</item> -->
+    </style>
+
+    <style name="AppTheme" parent="@android:style/Theme.Black">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!-- 透明弹出窗口 -->
+    <style name="style_progress_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">false</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowBackground">@color/alpha</item>
+        <item name="android:background">@color/alpha</item>
+        <!-- 背景透明 -->
+        <item name="android:backgroundDimEnabled">false</item>
+        <!-- 模糊 -->
+    </style>
+
+    <!-- 注册样式 -->
+    <style name="style_head">
+
+        <!-- 背景透明 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- 顶部标题栏文字样式 -->
+    <style name="style_title">
+        <item name="android:textColor">@color/orange</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="default_data_layout">
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="messageText">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="style_main_menu_text">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="style_classify_text">
+        <item name="android:textColor">@color/classifytext</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="style_all_list">
+        <item name="android:cacheColorHint">#00000000</item>
+        <item name="android:divider">#00000000</item>
+        <item name="android:headerDividersEnabled">false</item>
+        <item name="android:footerDividersEnabled">false</item>
+        <item name="android:fadingEdge">none</item>
+    </style>
+
+    <style name="style_stream_list">
+        <item name="android:listSelector">@color/backgroud</item>
+        <item name="android:divider">#00000000</item>
+        <item name="android:dividerHeight">0dp</item>
+        <item name="android:headerDividersEnabled">false</item>
+        <item name="android:footerDividersEnabled">false</item>
+        <item name="android:fadingEdge">none</item>
+    </style>
+
+    <style name="style_cat_list">
+        <item name="android:cacheColorHint">#ffffffff</item>
+        <item name="android:divider">@color/orange</item>
+        <item name="android:dividerHeight">1dp</item>
+        <item name="android:listSelector">@color/alpha</item>
+    </style>
+
+    <style name="style_cat_list_no_line">
+        <item name="android:cacheColorHint">#00000000</item>
+        <item name="android:divider">@color/red</item>
+        <item name="android:dividerHeight">1dp</item>
+        <item name="android:listSelector">@color/alpha</item>
+    </style>
+
+    <!-- 任务列表 标题 -->
+    <style name="style_list_title">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!-- 任务状态及金额 -->
+    <style name="style_list_priceprocess">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!-- 任务内容 -->
+    <style name="style_list_content">
+        <item name="android:textColor">@color/graydk</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- 设置大标题 -->
+    <style name="style_setting_title1">
+        <item name="android:textColor">@color/freebg</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center|left</item>
+        <item name="android:padding">10dip</item>
+    </style>
+
+    <!-- 系统更新字体 -->
+    <style name="style_setting_title2">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center|left</item>
+    </style>
+
+    <!-- 设置内容文字 -->
+    <style name="style_setting_text">
+        <item name="android:textColor">@color/graydk</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center|left</item>
+        <item name="android:paddingLeft">10dip</item>
+    </style>
+
+    <!-- 一条分割线 -->
+    <style name="style_default_line">
+        <item name="android:background">@color/graylk</item>
+        <item name="android:layout_marginTop">4dip</item>
+        <item name="android:layout_marginBottom">4dip</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dip</item>
+    </style>
+
+    <!-- 一条分割线 -->
+    <style name="style_default_line_nobuttom">
+        <item name="android:background">@color/graylk</item>
+        <item name="android:layout_marginTop">4dip</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dip</item>
+    </style>
+
+    <style name="style_default_line01">
+        <item name="android:background">@color/graylk</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+    </style>
+
+    <!-- 一条分割线 -->
+    <style name="style_default_line3">
+        <item name="android:background">@color/graylk</item>
+        <item name="android:layout_marginLeft">15dip</item>
+        <item name="android:layout_marginRight">15dip</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dip</item>
+    </style>
+    
+      <!-- 一条分割线 -->
+    <style name="style_default_line5">
+        <item name="android:background">@color/graylk</item>
+        <item name="android:layout_marginLeft">1dip</item>
+        <item name="android:layout_marginRight">1dip</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dip</item>
+    </style>
+
+    <!-- 无边灰色分割线 -->
+    <style name="style_default_line1">
+        <item name="android:background">@color/line2</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:layout_marginLeft">3dip</item>
+        <item name="android:layout_marginRight">3dip</item>
+        <item name="android:gravity">center</item>
+    </style>
+    
+    <style name="style_default_line4">
+        <item name="android:background">@color/line2</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- 列表分割线 -->
+    <style name="style_default_list_line">
+        <item name="android:background">@color/bgline</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+    </style>
+
+    <style name="style_default_line2">
+        <item name="android:background">@color/bgline</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dip</item>
+    </style>
+
+    <!-- 黑涩分割线 -->
+    <style name="style_black_line">
+        <item name="android:background">@color/black</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dip</item>
+    </style>
+
+    <!-- 红色色分割线(无边) -->
+    <style name="style_red_line1">
+        <item name="android:background">@color/red</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dip</item>
+    </style>
+
+    <!-- 竖线 -->
+    <style name="style_orange_line2">
+        <item name="android:background">@color/freebg</item>
+        <item name="android:layout_width">1dip</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <!-- 评论头文字 -->
+    <style name="style_comment_text">
+        <item name="android:textColor">@color/graydk</item>
+        <item name="android:gravity">center|left</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:paddingLeft">4dip</item>
+    </style>
+
+    <!-- 设置次要内容文字 -->
+    <style name="style_comment2_text">
+        <item name="android:textColor">@color/graydefault</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center|left</item>
+        <item name="android:paddingLeft">10dip</item>
+    </style>
+
+    <!-- 分享文字设定 -->
+    <style name="style_share_text">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">left|top</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingLeft">5dip</item>
+        <item name="android:paddingTop">5dip</item>
+        <item name="android:paddingRight">5dip</item>
+    </style>
+
+    <style name="style_orange_btn">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">26sp</item>
+        <!-- <item name="android:shadowColor">#ff000000</item> -->
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">0.5</item>
+        <item name="android:paddingLeft">12dip</item>
+        <item name="android:paddingRight">12dip</item>
+    </style>
+
+
+  
+
+    <style name="style_market_button">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/graydefault</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:shadowColor">@color/graylk</item>
+        <item name="android:shadowRadius">0.5</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="style_market_childrenbutton">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/alpha</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- 次要文字颜色大号 -->
+    <style name="style_big_level2_text">
+        <item name="android:textColor">@color/graydefault</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:paddingLeft">5dip</item>
+        <item name="android:paddingTop">5dip</item>
+        <item name="android:paddingRight">5dip</item>
+    </style>
+    <!-- im 
+    <style name="IM_AnimBottom" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/im_push_in</item>
+        <item name="android:windowExitAnimation">@anim/im_push_out</item>
+    </style>
+
+    <style name="IM_PopupAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/im_push_in</item>
+        <item name="android:windowExitAnimation">@anim/im_push_out</item>
+    </style>-->
+
+    <style name="IM_Transparent">
+        <item name="android:windowBackground">@color/im_alpha50</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+
+    </style>
+
+</resources>

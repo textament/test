@@ -1,0 +1,342 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+	package
+		ADDED from AndroidManifest.xml:3:5
+	android:versionName
+		ADDED from AndroidManifest.xml:5:5
+	android:versionCode
+		ADDED from AndroidManifest.xml:4:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-sdk
+ADDED from AndroidManifest.xml:7:5
+MERGED from ssy1.0:alipay_lib:unspecified:7:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:9:9
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:8:9
+supports-screens
+ADDED from AndroidManifest.xml:11:5
+	android:largeScreens
+		ADDED from AndroidManifest.xml:13:9
+	android:anyDensity
+		ADDED from AndroidManifest.xml:12:9
+	android:normalScreens
+		ADDED from AndroidManifest.xml:14:9
+	android:xlargeScreens
+		ADDED from AndroidManifest.xml:16:9
+	android:smallScreens
+		ADDED from AndroidManifest.xml:15:9
+uses-permission#android.permission.CAMERA
+ADDED from AndroidManifest.xml:18:5
+	android:name
+		ADDED from AndroidManifest.xml:18:22
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from AndroidManifest.xml:21:2
+	android:name
+		ADDED from AndroidManifest.xml:21:19
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from AndroidManifest.xml:22:2
+	android:name
+		ADDED from AndroidManifest.xml:22:19
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from AndroidManifest.xml:23:2
+	android:name
+		ADDED from AndroidManifest.xml:23:19
+uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
+ADDED from AndroidManifest.xml:24:2
+	android:name
+		ADDED from AndroidManifest.xml:24:19
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from AndroidManifest.xml:25:2
+	android:name
+		ADDED from AndroidManifest.xml:25:19
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:26:2
+	android:name
+		ADDED from AndroidManifest.xml:26:19
+uses-permission#com.android.launcher.permission.READ_SETTINGS
+ADDED from AndroidManifest.xml:27:2
+	android:name
+		ADDED from AndroidManifest.xml:27:19
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from AndroidManifest.xml:28:2
+	android:name
+		ADDED from AndroidManifest.xml:28:19
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from AndroidManifest.xml:29:2
+	android:name
+		ADDED from AndroidManifest.xml:29:19
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from AndroidManifest.xml:30:2
+	android:name
+		ADDED from AndroidManifest.xml:30:19
+uses-permission#android.permission.BROADCAST_STICKY
+ADDED from AndroidManifest.xml:31:2
+	android:name
+		ADDED from AndroidManifest.xml:31:19
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:32:2
+	android:name
+		ADDED from AndroidManifest.xml:32:19
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from AndroidManifest.xml:33:2
+	android:name
+		ADDED from AndroidManifest.xml:33:19
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from AndroidManifest.xml:38:5
+	android:name
+		ADDED from AndroidManifest.xml:38:22
+uses-permission#android.permission.READ_CONTACTS
+ADDED from AndroidManifest.xml:39:5
+	android:name
+		ADDED from AndroidManifest.xml:39:22
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from AndroidManifest.xml:40:5
+	android:name
+		ADDED from AndroidManifest.xml:40:22
+uses-permission#android.permission.WAKE_LOCK
+ADDED from AndroidManifest.xml:42:5
+	android:name
+		ADDED from AndroidManifest.xml:42:22
+uses-permission#android.permission.PROCESS_OUTGOING_CALLS
+ADDED from AndroidManifest.xml:43:5
+	android:name
+		ADDED from AndroidManifest.xml:43:22
+uses-permission#android.permission.CALL_PHONE
+ADDED from AndroidManifest.xml:44:5
+	android:name
+		ADDED from AndroidManifest.xml:44:22
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from AndroidManifest.xml:45:5
+	android:name
+		ADDED from AndroidManifest.xml:45:22
+uses-permission#android.permission.VIBRATE
+ADDED from AndroidManifest.xml:46:5
+	android:name
+		ADDED from AndroidManifest.xml:46:22
+uses-permission#android.permission.READ_LOGS
+ADDED from AndroidManifest.xml:48:5
+	android:name
+		ADDED from AndroidManifest.xml:48:22
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from AndroidManifest.xml:53:5
+	android:name
+		ADDED from AndroidManifest.xml:53:22
+uses-permission#android.permission.BLUETOOTH
+ADDED from AndroidManifest.xml:55:5
+	android:name
+		ADDED from AndroidManifest.xml:55:22
+uses-feature#android.hardware.telephony
+ADDED from AndroidManifest.xml:62:5
+	android:required
+		ADDED from AndroidManifest.xml:64:9
+	android:name
+		ADDED from AndroidManifest.xml:63:9
+application
+ADDED from AndroidManifest.xml:66:5
+MERGED from ssy1.0:alipay_lib:unspecified:11:5
+	android:label
+		ADDED from AndroidManifest.xml:71:9
+	android:allowBackup
+		ADDED from AndroidManifest.xml:68:9
+	android:icon
+		ADDED from AndroidManifest.xml:70:9
+	android:configChanges
+		ADDED from AndroidManifest.xml:69:9
+	android:theme
+		ADDED from AndroidManifest.xml:72:9
+	android:name
+		ADDED from AndroidManifest.xml:67:9
+activity#com.shanshengyuan.client.activity.WelcomeActivity
+ADDED from AndroidManifest.xml:73:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:75:13
+	android:name
+		ADDED from AndroidManifest.xml:74:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:76:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:77:17
+	android:name
+		ADDED from AndroidManifest.xml:77:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:79:17
+	android:name
+		ADDED from AndroidManifest.xml:79:27
+service#zwan.phone.api.activity.ZwanphoneService
+ADDED from AndroidManifest.xml:83:11
+	android:stopWithTask
+		ADDED from AndroidManifest.xml:85:13
+	android:name
+		ADDED from AndroidManifest.xml:84:13
+activity#com.shanshengyuan.client.activity.CallActivity
+ADDED from AndroidManifest.xml:87:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:91:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:89:13
+	android:name
+		ADDED from AndroidManifest.xml:88:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:90:13
+activity#com.shanshengyuan.client.activity.MainNewActivity
+ADDED from AndroidManifest.xml:92:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:96:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:94:13
+	android:name
+		ADDED from AndroidManifest.xml:93:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:95:13
+activity#com.shanshengyuan.client.activity.UserCenterActivity
+ADDED from AndroidManifest.xml:97:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:100:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:99:13
+	android:name
+		ADDED from AndroidManifest.xml:98:13
+activity#com.shanshengyuan.client.activity.OrderListActivity
+ADDED from AndroidManifest.xml:101:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:104:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:103:13
+	android:name
+		ADDED from AndroidManifest.xml:102:13
+activity#com.shanshengyuan.client.activity.AddressActivity
+ADDED from AndroidManifest.xml:105:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:108:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:107:13
+	android:name
+		ADDED from AndroidManifest.xml:106:13
+activity#com.shanshengyuan.client.activity.AddressEditActivity
+ADDED from AndroidManifest.xml:109:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:112:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:111:13
+	android:name
+		ADDED from AndroidManifest.xml:110:13
+activity#com.shanshengyuan.client.activity.BuyCarActivity
+ADDED from AndroidManifest.xml:113:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:116:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:115:13
+	android:name
+		ADDED from AndroidManifest.xml:114:13
+activity#com.shanshengyuan.client.activity.OrderPageActivity
+ADDED from AndroidManifest.xml:117:9
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:121:13
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:119:13
+	android:theme
+		ADDED from AndroidManifest.xml:120:13
+	android:name
+		ADDED from AndroidManifest.xml:118:13
+activity#com.shanshengyuan.client.activity.OrderResultActivity
+ADDED from AndroidManifest.xml:122:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:125:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:124:13
+	android:name
+		ADDED from AndroidManifest.xml:123:13
+activity#com.shanshengyuan.client.activity.DishDetailActivity
+ADDED from AndroidManifest.xml:126:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:129:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:128:13
+	android:name
+		ADDED from AndroidManifest.xml:127:13
+activity#com.shanshengyuan.client.activity.FeedBackActivity
+ADDED from AndroidManifest.xml:130:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:133:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:132:13
+	android:name
+		ADDED from AndroidManifest.xml:131:13
+activity#com.shanshengyuan.client.activity.AdverWebActivity
+ADDED from AndroidManifest.xml:134:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:137:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:136:13
+	android:name
+		ADDED from AndroidManifest.xml:135:13
+activity#com.shanshengyuan.client.activity.OrderDishListActivity
+ADDED from AndroidManifest.xml:138:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:141:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:140:13
+	android:name
+		ADDED from AndroidManifest.xml:139:13
+activity#com.shanshengyuan.client.activity.AboutActivity
+ADDED from AndroidManifest.xml:142:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:145:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:144:13
+	android:name
+		ADDED from AndroidManifest.xml:143:13
+activity#com.shanshengyuan.client.activity.MapActivity
+ADDED from AndroidManifest.xml:146:10
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:149:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:148:13
+	android:name
+		ADDED from AndroidManifest.xml:147:13
+activity#com.shanshengyuan.client.activity.SystemVersionActivity
+ADDED from AndroidManifest.xml:150:10
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:152:13
+	android:theme
+		ADDED from AndroidManifest.xml:153:14
+	android:name
+		ADDED from AndroidManifest.xml:151:13
+activity#com.alipay.android.app.sdk.WapPayActivity
+ADDED from AndroidManifest.xml:157:9
+MERGED from ssy1.0:alipay_lib:unspecified:14:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:159:13
+	android:name
+		ADDED from AndroidManifest.xml:158:13
+meta-data#TD_APP_ID
+ADDED from AndroidManifest.xml:162:9
+	android:name
+		ADDED from AndroidManifest.xml:163:13
+	android:value
+		ADDED from AndroidManifest.xml:164:13
+meta-data#TD_CHANNEL_ID
+ADDED from AndroidManifest.xml:165:9
+	android:name
+		ADDED from AndroidManifest.xml:166:13
+	android:value
+		ADDED from AndroidManifest.xml:167:13
+meta-data#com.baidu.lbsapi.API_KEY
+ADDED from AndroidManifest.xml:168:9
+	android:name
+		ADDED from AndroidManifest.xml:169:13
+	android:value
+		ADDED from AndroidManifest.xml:170:13
+service#com.baidu.location.f
+ADDED from AndroidManifest.xml:172:9
+	android:process
+		ADDED from AndroidManifest.xml:175:13
+	android:enabled
+		ADDED from AndroidManifest.xml:174:13
+	android:name
+		ADDED from AndroidManifest.xml:173:13

@@ -1,0 +1,122 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.0.0'
+    }
+}
+apply plugin: 'android'
+
+dependencies {
+    compile project(':alipay_lib')
+    compile fileTree(dir: 'libs', include: '*.jar')
+}
+
+
+android {
+    compileSdkVersion 20
+    buildToolsVersion '21.1.2'
+
+    defaultConfig {
+        applicationId "com.shanshengyuan.client"
+        minSdkVersion 14
+        targetSdkVersion 21
+        versionCode 1
+        versionName "0.9.0"
+
+        // dex突破65535的限制
+        multiDexEnabled true
+        // 默认渠道
+        manifestPlaceholders = [UMENG_CHANNEL_VALUE: "ssy"]
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            resources.srcDirs = ['src']
+            aidl.srcDirs = ['src']
+            renderscript.srcDirs = ['src']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+        }
+
+    }
+
+
+
+    signingConfigs {
+        debug {
+            // No debug config
+        }
+
+        release {
+            storeFile file("../ssy1.0/ssy")
+            storePassword "shanshijia"
+            keyAlias "ssy"
+            keyPassword "shanshijia"
+        }
+    }
+
+    buildTypes {
+        debug {
+            // 显示Log
+            buildConfigField "boolean", "LOG_DEBUG", "true"
+
+            versionNameSuffix "-debug"
+            minifyEnabled false
+            zipAlignEnabled false
+            shrinkResources false
+            signingConfig signingConfigs.debug
+        }
+
+        release {
+            // 不显示Log
+            buildConfigField "boolean", "LOG_DEBUG", "false"
+
+            zipAlignEnabled true
+            // 移除无用的resource文件
+            shrinkResources true
+            // 是否进行混淆
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+
+            applicationVariants.all { variant ->
+                variant.outputs.each { output ->
+                    def outputFile = output.outputFile
+                    if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                        // 输出apk名称为boohee_v1.0_wandoujia.apk
+                        def fileName = "ssy_v${defaultConfig.versionName}_${variant.productFlavors[0].name}.apk"
+                        output.outputFile = new File(outputFile.parent, fileName)
+                    }
+                }
+            }
+        }
+    }
+
+    productFlavors {
+           shanshijia{
+               manifestPlaceholders=[UMENG_CHANNEL_VALUE:"ssy"]
+
+           }
+        wandoujia {
+            manifestPlaceholders=[UMENG_CHANNEL_VALUE:"m.wandoujia.com"]
+
+        }
+//        baidu {}
+//        c360 {}
+//        uc {}
+
+//        productFlavors.all { flavor ->
+//            flavor.manifestPlaceholders = [UMENG_CHANNEL_VALUE: name]
+//        }
+
+    }
+}

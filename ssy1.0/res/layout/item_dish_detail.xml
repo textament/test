@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroud"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical"
+        android:paddingBottom="15dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dp" >
+
+        <TextView 
+            android:id="@+id/detail_num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/orange"
+            android:gravity="left|center"
+            android:textSize="30sp"
+            android:text="1."
+            />
+        <TextView 
+            android:id="@+id/detail_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:textColor="@color/graydk"
+            android:gravity="left|center"
+            android:textSize="16sp"
+            android:text="是的发生的发生的防辐射的发生的范德萨是的发生的发生的范德萨范德萨sdfsdfsdfsdf"
+            />
+        <ImageView 
+            android:id="@+id/detail_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/welcome"
+            />
+    </LinearLayout>
+    
+
+</LinearLayout>

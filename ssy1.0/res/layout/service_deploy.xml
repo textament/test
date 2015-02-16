@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/backgroud"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/server_outer_wai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/alpha"
+        android:orientation="vertical"
+        >
+        
+        <LinearLayout
+        android:id="@+id/server_outer"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/alpha"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        android:paddingTop="10dp" >
+
+        <LinearLayout
+            android:id="@+id/server_one"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" >
+
+
+            <TextView
+                android:id="@+id/server_tv_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="middle"
+                android:gravity="center"
+                android:paddingTop="5dp"
+                android:singleLine="true"
+                android:text="服务1"
+                android:textColor="@color/graydk" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/server_two"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" >
+
+
+            <TextView
+                android:id="@+id/server_tv_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="middle"
+                android:gravity="center"
+                android:paddingTop="5dp"
+                android:singleLine="true"
+                android:text="服务2"
+                android:textColor="@color/graydk" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/server_thr"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" >
+
+          
+            <TextView
+                android:id="@+id/server_tv_thr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="middle"
+                android:gravity="center"
+                android:paddingTop="5dp"
+                android:singleLine="true"
+                android:text="服务3"
+                android:textColor="@color/graydk" />
+        </LinearLayout>
+
+    </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

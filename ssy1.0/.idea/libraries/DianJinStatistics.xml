@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="DianJinStatistics">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/DianJinStatistics.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

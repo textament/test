@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:src="@drawable/heng"
+	android:tileMode="repeat" /><!-- From: file:/F:/androidstudioWp/SSYStore/res/drawable/sawtooth1.xml -->

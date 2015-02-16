@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/main_usermain_menu"
+        android:layout_width="match_parent"
+        android:layout_height="65dip"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/ic_launcher"
+        android:gravity="bottom"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/menu_layout_1"
+                android:layout_width="65dip"
+                android:layout_height="match_parent"
+                android:background="@drawable/ic_launcher"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="0dp" >
+
+                <ImageView
+                    android:id="@+id/menu_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="6dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/ic_launcher" />
+
+                <TextView
+                    android:id="@+id/view_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="首页"
+                    android:textColor="@color/graydk"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="5dip"
+            android:layout_height="1dip" />
+
+        <RelativeLayout
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/menu_layout_3"
+                android:layout_width="65dip"
+                android:layout_height="match_parent"
+                android:background="@drawable/ic_launcher"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="0dp" >
+
+                <ImageView
+                    android:id="@+id/menu_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/ic_launcher" />
+
+                <TextView
+                    android:id="@+id/view_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="买服务"
+                    android:textColor="@color/graydk"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="5dip"
+            android:layout_height="1dip" />
+
+        <RelativeLayout
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/menu_layout_2"
+                android:layout_width="65dip"
+                android:layout_height="match_parent"
+                android:background="@drawable/ic_launcher"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="0dp" >
+
+                <ImageView
+                    android:id="@+id/menu_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/ic_launcher" />
+
+                <TextView
+                    android:id="@+id/view_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="需求市场"
+                    android:textColor="@color/graydk"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="5dip"
+            android:layout_height="1dip" />
+
+        <RelativeLayout
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/menu_layout_4"
+                android:layout_width="65dip"
+                android:layout_height="match_parent"
+                android:background="@drawable/ic_launcher"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="0dp" >
+
+                <ImageView
+                    android:id="@+id/menu_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/ic_launcher" />
+
+                <TextView
+                    android:id="@+id/view_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="我的订单"
+                    android:textColor="@color/graydk"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="5dip"
+            android:layout_height="1dip" />
+
+        <RelativeLayout
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+
+                <LinearLayout
+                    android:id="@+id/menu_layout_5"
+                    android:layout_width="65dip"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/ic_launcher"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="0dip" >
+
+                    <ImageView
+                        android:id="@+id/menu_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginBottom="3dp"
+                        android:layout_marginLeft="3dp"
+                        android:background="@drawable/ic_launcher" />
+
+                    <TextView
+                        android:id="@+id/view_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:text="用户中心"
+                        android:textColor="@color/graydk"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/news_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@id/menu_layout_5"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/ic_launcher"
+                    android:visibility="gone" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

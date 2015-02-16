@@ -1,0 +1,8 @@
+F:\androidstudioWp\SSYStore\build\intermediates\classes\debug
+F:\androidstudioWp\SSYStore\build\intermediates\pre-dexed\debug\httpmime-4.1.2-e134c73cf09135eaab659264b40d5ff5a42893cb.jar
+F:\androidstudioWp\SSYStore\build\intermediates\pre-dexed\debug\libammsdk-a0f770a5da31c7d2855b2b0c35172e8370bbff60.jar
+F:\androidstudioWp\SSYStore\build\intermediates\pre-dexed\debug\locSDK_3.1-69c8438750b197643f2449c41aea39b0dbc9ff6f.jar
+F:\androidstudioWp\SSYStore\build\intermediates\pre-dexed\debug\gson-1.5-bc6b75a83547418e1ae722e95578a2d2c10c60a9.jar
+F:\androidstudioWp\SSYStore\build\intermediates\pre-dexed\debug\thinkandroid-1.1-bin-d580c99ed9c299ad7af2c66056173553371b4309.jar
+F:\androidstudioWp\SSYStore\build\intermediates\pre-dexed\debug\zxing-382f63a75b189a1710b1f8ef76498fba34a7ce08.jar
+F:\androidstudioWp\SSYStore\build\intermediates\pre-dexed\debug\android-support-v4-9d18afa50cb75d9d8e5862caeadc38f800b3d277.jar

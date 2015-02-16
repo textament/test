@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroud"
+    android:gravity="left|center"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@color/backgroud"
+	    android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:id="@+id/top_ly"
+            android:layout_width="fill_parent"
+            android:layout_height="55dip"
+            android:background="@color/title_bar"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/main_user_center"
+                android:layout_width="54dip"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/setting_selector"
+                android:clickable="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/home_user_icon_selector" />
+
+                <ImageView
+                    android:id="@+id/new_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@id/main_user_center"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/home_point"
+                    android:visibility="invisible" />
+
+            </RelativeLayout>
+
+            <EditText
+                android:id="@+id/search_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:gravity="left|center"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:singleLine="true"
+
+                android:imeOptions="actionSearch"
+                android:background="@drawable/img_01"
+                android:hint="  搜索美食"
+                android:visibility="visible" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+
+                <LinearLayout
+                    android:id="@+id/menu_layout_5"
+                    android:layout_width="55dip"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="0dip" >
+
+                    <TextView
+                        android:id="@+id/main_order_list"
+                        android:layout_width="54dip"
+                        android:layout_height="fill_parent"
+                        android:clickable="true"
+                        android:gravity="center"
+
+                        android:scaleType="centerInside"
+                        android:text="套餐"
+                        android:textColor="@color/red"
+                        android:textSize="16sp"
+                        android:visibility="visible" />
+                </LinearLayout>
+
+                <ImageView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@id/menu_layout_5"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/home_point"
+                    android:visibility="invisible" />
+            </RelativeLayout>
+        </LinearLayout>
+  
+    <LinearLayout
+        android:id="@+id/body_ly"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/title_bar"
+        android:orientation="vertical" >
+
+	 <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             android:background="@color/backgroud"
+             >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/main_footer"
+                android:orientation="vertical"
+                >
+            
+            <com.shanshengyuan.client.utils.ClimbListView
+                android:id="@+id/list"
+                style="@style/style_stream_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:dividerHeight="0dp" />
+
+            <ImageView
+                android:id="@+id/no_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_launcher"
+
+                android:visibility="visible"
+                />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/main_footer"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/buttom_bg"
+                android:gravity="center"
+                android:orientation="horizontal"
+                >
+
+                <LinearLayout
+                    android:id="@+id/go_shopping_ly"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_weight="0.2"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/home_people_the_bottom_bar"
+                    android:padding="5dp"
+                    android:gravity="left"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="33dp"
+                        android:layout_height="33dp"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/home_shopping_trolley_icon" />
+
+                    <TextView
+                        android:id="@+id/go_shopping_car"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:gravity="left|center"
+                        android:paddingLeft="10dp"
+                        android:text="请加入购物车"
+                        android:textColor="@color/buttom_fontcolor"
+                        android:textSize="17sp" />
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="5dp"
+                    android:layout_height="match_parent"
+                    />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#a5947d"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="0.8"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/dish_type"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:drawableRight="@drawable/home_triangle_under"
+                        android:gravity="center"
+                        android:text="分类"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+         <LinearLayout
+             android:id="@+id/show_top_ly"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             >
+
+            <TextView
+                android:id="@+id/show_top_tv"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/blue"
+                android:gravity="center"
+                android:visibility="gone"
+                android:text="隐藏显示"
+                />
+
+
+         </LinearLayout>
+
+         <ListView
+             android:id="@+id/search_history"
+             android:layout_width="fill_parent"
+             android:layout_height="match_parent"
+
+             android:visibility="gone" />
+
+
+            <View
+                android:id="@+id/map_mask"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:background="#AA000000"
+                android:visibility="gone" />
+            
+            <ImageView
+                android:id="@+id/ant_img"
+                        android:layout_width="33dp"
+                        android:layout_height="33dp"
+                        android:visibility="gone"
+                        android:src="@drawable/home_shopping_trolley_icon" />
+
+            <LinearLayout
+                android:id="@+id/cat_ly"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="#ffededed"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="#ff888888"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="20dp"
+                    android:text="选择分类"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp" />
+
+                <ProgressBar
+                    android:id="@+id/progress_bar"
+                    style="?android:attr/progressBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp" >
+                </ProgressBar>
+
+                <LinearLayout
+                    android:id="@+id/cat_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:visibility="gone" >
+                
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+      </LinearLayout>
+    
+     <LinearLayout 
+        android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    android:gravity="center"
+        >
+    
+    <ImageView 
+        android:id="@+id/call_kehu"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/telephone_s"
+        >
+        
+    </ImageView>
+    </LinearLayout>
+</RelativeLayout>

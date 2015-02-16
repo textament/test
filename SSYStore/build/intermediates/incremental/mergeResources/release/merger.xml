@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="F:\androidstudioWp\SSYStore\res"><file name="mmtitlebackbtn" path="F:\androidstudioWp\SSYStore\res\drawable\mmtitlebackbtn.xml" qualifiers="" type="drawable"/><file name="red_button_selector" path="F:\androidstudioWp\SSYStore\res\drawable\red_button_selector.xml" qualifiers="" type="drawable"/><file name="sawtooth1" path="F:\androidstudioWp\SSYStore\res\drawable\sawtooth1.xml" qualifiers="" type="drawable"/><file name="setting_selector" path="F:\androidstudioWp\SSYStore\res\drawable\setting_selector.xml" qualifiers="" type="drawable"/><file name="arrow" path="F:\androidstudioWp\SSYStore\res\drawable-hdpi\arrow.png" qualifiers="hdpi-v4" type="drawable"/><file name="back" path="F:\androidstudioWp\SSYStore\res\drawable-hdpi\back.png" qualifiers="hdpi-v4" type="drawable"/><file name="biank" path="F:\androidstudioWp\SSYStore\res\drawable-hdpi\biank.png" qualifiers="hdpi-v4" type="drawable"/><file name="completeaddress" path="F:\androidstudioWp\SSYStore\res\drawable-hdpi\completeaddress.png" qualifiers="hdpi-v4" type="drawable"/><file name="defauleimg" path="F:\androidstudioWp\SSYStore\res\drawable-hdpi\defauleimg.png" qualifiers="hdpi-v4" type="drawable"/><file name="heng" path="F:\androidstudioWp\SSYStore\res\drawable-hdpi\heng.png" qualifiers="hdpi-v4" type="drawable"/><file name="homethebuybutton" path="F:\androidstudioWp\SSYStore\res\drawable-hdpi\homethebuybutton.png" qualifiers="hdpi-v4" type="drawable"/><file name="homethebuybuttons" path="F:\androidstudioWp\SSYStore\res\drawable-hdpi\homethebuybuttons.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="F:\androidstudioWp\SSYStore\res\drawable-hdpi\ic_launcher.png" qualifiers="hdpi-v4" type="drawable"/><file name="mmtitlebackfocused" path="F:\androidstudioWp\SSYStore\res\drawable-hdpi\mmtitlebackfocused.png" qualifiers="hdpi-v4" type="drawable"/><file name="mmtitlebacknormal" path="F:\androidstudioWp\SSYStore\res\drawable-hdpi\mmtitlebacknormal.png" qualifiers="hdpi-v4" type="drawable"/><file name="mmtitlebgalpha" path="F:\androidstudioWp\SSYStore\res\drawable-hdpi\mmtitlebgalpha.png" qualifiers="hdpi-v4" type="drawable"/><file name="shanshijia" path="F:\androidstudioWp\SSYStore\res\drawable-hdpi\shanshijia.png" qualifiers="hdpi-v4" type="drawable"/><file name="sign_in_cipher" path="F:\androidstudioWp\SSYStore\res\drawable-hdpi\sign_in_cipher.png" qualifiers="hdpi-v4" type="drawable"/><file name="sign_in_name" path="F:\androidstudioWp\SSYStore\res\drawable-hdpi\sign_in_name.png" qualifiers="hdpi-v4" type="drawable"/><file name="welcome" path="F:\androidstudioWp\SSYStore\res\drawable-hdpi\welcome.jpg" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="F:\androidstudioWp\SSYStore\res\drawable-mdpi\ic_launcher.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_launcher" path="F:\androidstudioWp\SSYStore\res\drawable-xhdpi\ic_launcher.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_launcher" path="F:\androidstudioWp\SSYStore\res\drawable-xxhdpi\ic_launcher.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="activity_capture" path="F:\androidstudioWp\SSYStore\res\layout\activity_capture.xml" qualifiers="" type="layout"/><file name="activity_login" path="F:\androidstudioWp\SSYStore\res\layout\activity_login.xml" qualifiers="" type="layout"/><file name="activity_main" path="F:\androidstudioWp\SSYStore\res\layout\activity_main.xml" qualifiers="" type="layout"/><file name="activity_order_dish_list" path="F:\androidstudioWp\SSYStore\res\layout\activity_order_dish_list.xml" qualifiers="" type="layout"/><file name="activity_register" path="F:\androidstudioWp\SSYStore\res\layout\activity_register.xml" qualifiers="" type="layout"/><file name="activity_title" path="F:\androidstudioWp\SSYStore\res\layout\activity_title.xml" qualifiers="" type="layout"/><file name="activity_welcome" path="F:\androidstudioWp\SSYStore\res\layout\activity_welcome.xml" qualifiers="" type="layout"/><file name="demand_list_footer" path="F:\androidstudioWp\SSYStore\res\layout\demand_list_footer.xml" qualifiers="" type="layout"/><file name="head" path="F:\androidstudioWp\SSYStore\res\layout\head.xml" qualifiers="" type="layout"/><file name="item_order_list_sec" path="F:\androidstudioWp\SSYStore\res\layout\item_order_list_sec.xml" qualifiers="" type="layout"/><file name="order_result_info" path="F:\androidstudioWp\SSYStore\res\layout\order_result_info.xml" qualifiers="" type="layout"/><file name="progress_bar" path="F:\androidstudioWp\SSYStore\res\layout\progress_bar.xml" qualifiers="" type="layout"/><file name="ding1" path="F:\androidstudioWp\SSYStore\res\raw\ding1.ogg" qualifiers="" type="raw"/><file path="F:\androidstudioWp\SSYStore\res\values\colors.xml" qualifiers=""><color name="title_top">#f1e9df</color><color name="possible_result_points">#c0ffff00</color><color name="graycc">#FFC8C8C8</color><color name="alpha50">#50000000</color><color name="logincolor">#FFE7E7E7</color><color name="HAIZAKURA">#FFD7C4BB</color><color name="backgroud">#f1f1f1</color><color name="hirestatus">#FFF2B73C</color><color name="title_bar">#f1e9df</color><color name="releasebuttom">#FF3A2F2E</color><color name="coffee">#FF776622</color><color name="orange">#FF4800</color><color name="F5F5F5">#F5F5F5</color><color name="tigong_font_color">#9b9b9b</color><color name="SHIRONEZUMI">#FFBDC0BA</color><color name="salebg">#C75324</color><color name="black">#FF000000</color><color name="font_main">#FF333333</color><color name="grayp">#FF636363</color><color name="orangecolor2">#fff7e5ca</color><color name="linkblue">#2E6898</color><color name="alpha">#00000000</color><color name="servicebg">#9FD304</color><color name="fontcolor1">#FFBDBDBD</color><color name="blue">#0000FF</color><color name="result_view">#b0000000</color><color name="updateblack">#272727</color><color name="microcolor">#FFFDFBF9</color><color name="graydefault">#FF555555</color><color name="freebg">#F5990A</color><color name="font_list_color">#de2020</color><color name="fontcolor">#FFCCCCCC</color><color name="red">#FFFF0000</color><color name="orangecolor">#FFFFF6E5</color><color name="mainfont">#FF3A2F2E</color><color name="title_fontcolor">#9b9b9b</color><color name="graybg">#FFF8F8F8</color><color name="buttom_fontcolor">#FF5B54</color><color name="buttom_bg">#b3a28b</color><color name="zhongse_font_color">#b48553</color><color name="upload_text">#FFB9B9B9</color><color name="orange_title">#FFF48800</color><color name="blue09b">#0099BB</color><color name="graydefaultbg">#FFECECEC</color><color name="donecolor">#FF808080</color><color name="mainsort">#666666</color><color name="grayselectbg">#FFDCDCDC</color><color name="roucolor">#FFCA8F78</color><color name="release_service">#FFE7E7E7</color><color name="transparent">#00000000</color><color name="dark_orange">#b93d17</color><color name="alpha80">#80000000</color><color name="graydd">#FF8D8D8D</color><color name="SHIRONERI">#FFFCFAF2</color><color name="fenlei_font">#b48553</color><color name="f90white">#90FFFFFF</color><color name="f90gray4">#90b4b4b4</color><color name="bgline">#FFDFDFDF</color><color name="updateorange">#FF6934</color><color name="blue_dark">#5679a1</color><color name="classifytext">#FF665522</color><color name="yellow">#FFFF00</color><color name="CC6622">#ffCC6622</color><color name="f4">#4C4C4C</color><color name="white">#FFF</color><color name="f7">#F7F7F7</color><color name="state1">#FFF0EBCD</color><color name="glakbg2">#FFF9F9F9</color><color name="state2">#FFDAE1F1</color><color name="state3">#FFD8EED7</color><color name="adbgcolor">#80000000</color><color name="graylk">#FFB9B9B9</color><color name="viewfinder_mask">#60000000</color><color name="pay_type_color">#202020</color><color name="dygreen">#FF2F7D99</color><color name="graydk">#FF222222</color><color name="line2">#FFDBDBDB</color></file><file path="F:\androidstudioWp\SSYStore\res\values\dimens.xml" qualifiers=""><dimen name="activity_horizontal_margin">16dp</dimen><dimen name="activity_vertical_margin">16dp</dimen></file><file path="F:\androidstudioWp\SSYStore\res\values\ids.xml" qualifiers=""><item name="search_book_contents_succeeded" type="id"/><item name="restart_preview" type="id"/><item name="search_book_contents_failed" type="id"/><item name="about_version_code" type="id">false</item><item name="decode_succeeded" type="id"/><item name="auto_focus" type="id"/><item name="gridview" type="id"/><item name="webview" type="id"/><item name="return_scan_result" type="id"/><item name="split" type="id">false</item><item name="launch_product_query" type="id"/><item name="quit" type="id"/><item name="encode_succeeded" type="id"/><item name="decode" type="id"/><item name="encode_failed" type="id"/><item name="decode_failed" type="id"/></file><file path="F:\androidstudioWp\SSYStore\res\values\strings.xml" qualifiers=""><string name="done">完成</string><string name="task_state_type3_4">交易成功</string><string name="task_state_type3_2">服务商交稿</string><color name="im_grayselectbg">#FFDCDCDC</color><string name="task_state_type3_3">选中标稿件</string><string name="task_state_type3_1">发需求并托管</string><string name="deal_number">交易号：%1$s</string><string name="task_state_type2_3">选择满意服务商</string><string name="task_state_type2_4">托管赏金</string><string name="combine_pay_msg">余额支付部分，剩余%1$s元用支付宝支付</string><string name="task_state_type2_1">发布需求</string><string name="task_state_type2_2">服务商报价</string><string name="task_state_type2_7">评价完成</string><string name="reward_way_per">计件，合格一件支付一件</string><string name="task_state_type2_5">服务商工作</string><string name="task_state_type2_6">验收并付款</string><string name="task_final_state">交易状态：%1$s</string><string name="voice_time">%1$s秒，点击播放，长按删除</string><string name="warnning">警告</string><string name="share_weixin_work_url">http://i.api.zhubajie.com/html/Workspagev3?work_id=%1$s</string><string name="reward_per">每件：</string><string name="confirm_install_hint">"安装提示"</string><string name="contact">联系TA</string><string name="share_content_work">哎呀，有人在@猪八戒客户端 发了个需求“%1$s”，就有人帮他解决了。 http://t.cn/8kVXcH0</string><string name="bind_phone_msg">支付需短信验证，还未绑定手机号码？</string><string name="wx_appid">wx65f1628cc2315d92</string><string name="deal_msg">太赞了，您已成功托管赏金%1$s元，您的需求会得到更多关注！！</string><string name="guarantee_money">应 付 担 保 金：</string><string name="desc_spread">显示更多</string><string name="task_final_allocation">赏金分配：%1$s</string><string name="guarantee_tip">托管赏金不会直接支付给威客，若零投标将全额退还。</string><string name="share_wap">http://home.zhubajie.com/%1$s/sid-%2$s.html</string><string name="address_order">收货地址:%1$s</string><string name="wx_appkey">u9U8cR1Agkng3XcF04zz92w8feTsoGPvMmkTH8PqzwvGf9VR5fWX64PVJgI7TfMltw8cHuOQ4klTlYH6yZPY411eljGcbmnbtG7jmg4dc3XjHOokdRQ0XU1xij0Xi4de</string><string name="watermelon_data">西瓜(%1$s)</string><string name="task_share_msg">分享这个需求，让更多的朋友知道吧！</string><string name="near_total">附近有%1$d个服务商可为您服务</string><string name="default_long_des">正在获取中, 请稍候…</string><string name="order_time">下单时间: %1$s</string><string name="server_nickname_des">服务商:%1$s</string><string name="no_mobile">TA未绑定手机</string><color name="im_black">#000</color><string name="user_status">近期收入：%1$s元 | 好评：%2$s</string><string name="not_mod_msg">亲，赏金总额要是单价的整数倍哦~</string><string name="talking_id">80F19EA8AF0671BE1A762EECB4C740E8</string><string name="reward_way_money">赏金：</string><string name="one_job_pay">单人独享 ></string><string name="auth_complete">授权成功，正在跳转登录操作…</string><string name="task_mode_description">需求类型：%1$s</string><string name="back">返回</string><string name="finish_tip">授权成功，完善联系方式即可使用猪八戒网所有 服务。</string><string name="vcode_sent_msg">支付需短信验证，验证码将发送至 </string><string name="pay_succeed_smg">恭喜您，支付成功！</string><string name="deal_name">交易名称：%1$s</string><color name="im_alpha">#00000000</color><string name="i_know_msg">好的，我知道了</string><string name="desc_shrinkup">收起</string><string name="content_2_2">TA的邮箱：%1$s</string><string name="pay_way_yiji">使用网银支付</string><string name="share_message">我发现了一个很有趣的服务：%1$s http://home.zhubajie.com/%2$s/sid-%3$s.html 送爸妈、送自己、送朋友有趣有新意，你也赶紧来体验一下吧</string><string name="choose_pay_way">选择支付方式：</string><string name="content_5">内容：%1$s</string><string name="comment_data1">(%1$s)</string><string name="comment_data">点评(%1$s)</string><string name="content_4">祝福类型：%1$s</string><string name="deal_money">交易金额：</string><string name="logining">使用%s帐号登录中…</string><string name="server_share_msg">觉得这个服务很有意思？分享给更多的朋友吧！</string><string name="content_1">送给谁： %1$s</string><string name="reward_single">单人独享奖金</string><string name="pay_help_title">网站支付提示</string><string name="order_total_amount">总金额:￥%1$s</string><string name="content_2">TA的手机：%1$s</string><string name="content_3">接收时间：%1$s</string><string name="jiaoyi_mingxi">由于每幅画都投入了画师的大量心血和创意，所以画头像服务恕不接受退款。如果您付款表示您已知晓并同意该约定。</string><string name="share_content_title">%1$s</string><string name="jiaoyi_money">交易金额：%1$s 元</string><string name="publish_release">发布需求</string><string name="not_enough_rest">您的账户余额不足，暂时无法支付</string><string name="play">播放</string><string name="task_final_tid">赏金编号：%1$s</string><string name="share_wap_task">http://task.zhubajie.com/%1$s</string><string name="ball_data">粪球(%1$s)</string><string name="vcode_reget">重新获取(%1$s) </string><string name="bid">中标</string><string name="pay_help_msg">如何在网站支付？</string><string name="pay_way_rest">余额支付</string><string name="if_register_needed">如果您需要注册功能…</string><string name="money_bounty_label">托管：</string><string name="new_features">       1.【第三方登录】只要您是QQ、微博、人人网用户，即可闪电登录app，省去每次输入用户名和密码的烦恼。\n\n
+	   2.【绑定/解绑分享账号】您可以在app的“用户中心”里绑定/解绑分享账号。用哪个账号分享我做主！\n\n
+	   3.【优化】精选服务的服务介绍里面可以显示图片啦，图文并茂助您全方位了解一个服务。\n\n
+	   4.【优化】不登陆也可进入“我的订单”、“用户中心”。\n\n
+	   5.【优化】解决“分享出去的需求，别人点击后进入需求市场”的问题，现在分享哪个需求，别人就看哪个需求！
+</string><string name="ball_data1">(%1$s)</string><string name="vcode_reget_static">重新获取</string><string name="share_weixin_url">http://i.api.zhubajie.com/weixinMain/shareservice?service_id=%1$s</string><string name="no_sd">没有SD卡</string><string name="share_content_work_title">%1$s</string><string name="friend_del">删除</string><string name="order_num">数量: %1$s</string><string name="jiaoyi_content">为保证资金安全，需进行短信验证，验证码已发送到手机 %1$s</string><string name="amount_1">%1$s元(%2$s)</string><string name="auth_error">授权操作遇到错误，请阅读Logcat输出</string><string name="alternativeno">取消备选</string><string name="share_content_task_title">%1$s</string><string name="bounty_new">比稿：比稿需求可获得很多创意，适合logo设计、标志、海报、名片设计、起名取名等类型的需求。
+</string><string name="guarantee_title">托管赏金</string><string name="task_state_type1_1">发需求并托管</string><string name="replay">重新录制</string><string name="vcode_input_hint">请输入短信验证码 </string><string name="release_new_title">找不到合适的服务? </string><string name="auth_cancel">授权操作已取消</string><string name="task_state_jiaogao">使用交稿功能需要先下载"抢单宝"。下载抢单宝，接单赚钱快人一步。</string><string name="next">下一步</string><string name="pay_success_title">支付成功</string><string name="remote_call_failed">调用支付宝服务失败</string><string name="default_middle_des">正在获取中</string><string name="share_content_my">我在@猪八戒客户端 购买了一个服务“%1$s”，这里还有好多特殊服务，你也来瞧瞧吧！http://t.cn/8kVXcH0</string><string name="money_amount_label">悬赏：</string><string name="bounty_1">赏金：%1$s元(等待您托管赏金)        %2$s元/个</string><string name="pay_title">余额支付</string><string name="address_phone">电话:%1$s</string><string name="wx_content">目前暂时只支持通过微信接收稿件。\n
+							    操作步骤：\n
+							  1.打开微信，添加我们的官方客服mm（微信号：zbjkf023）为好友。\n
+							  2.回复订单编号：%1$s，即可收到您的稿件。
+							  
+</string><string name="order_total">共 %1$s 件</string><string name="address_username">取菜人:%1$s</string><string name="jiaoyi_tip">此操作会将托管的赏金支付给服务商，请确认服务商完成了全部工作。验证码将发送至手机%1$s</string><string name="one_pay">单人独享</string><string name="vcode_get">获取短信验证码 </string><string name="server_ratio">%1$s%%</string><string name="i_need">我需要:%1$s</string><string name="share_weixin_task_url">http://i.api.zhubajie.com/html/Requestsv3?task_id=%1$s</string><string name="after_auth">一般来说第三方登录时，第三方平台已经为您完成用户身份校验，您可以放心让用户登录。\n\n但如果您需要判断用户是否为新用户，可以在授权操作完成后，将用户的信息通过字段“HashMap userInfo”携带给login方法。客户端通过“String userId”执行登录请求，如果服务端判定此userId为未注册用户，可以将userInfo发送给注册接口，获取用户在此平台上的昵称、头像等数据，然后执行注册</string><string name="share_wap_work"> http://task.zhubajie.com/%1$s/%2$s.html</string><string name="left_time_label">剩余：</string><string name="not_pay_yet">暂不支付</string><string name="check_sign_failed">您的订单信息已被非法篡改。</string><string name="task_state_type1_3">选择满意稿件</string><string name="task_state_type1_2">服务商交稿</string><string name="task_state_type1_5">验收并付款</string><string name="confirm_install">"为保证您的交易安全，需要您安装支付宝安全支付服务，才能进行付款。\n\n点击确定，立即安装。"</string><string name="task_state_type1_4">中标公示</string><string name="title_1">给%1$s发送短信祝福</string><string name="task_state_type1_6">评价完成</string><string name="reward_way">您希望以何种方式分配这笔赏金？</string><string name="task_state_type4_1">雇佣</string><string name="task_state_type4_2">买家托管赏金</string><string name="task_state_type4_5">评价完成</string><string name="task_state_type4_3">服务商开始工作</string><string name="task_state_type4_4">买家付款</string><string name="work_share_msg">觉得这个稿件很不错？分享给朋友们看看吧！</string><string name="fufu_titile">与 %1$s 聊天中</string><string name="default_short_des">获取中</string><string name="share_conent_work_two">我发现了一个不错的稿件，来自需求：%1$s，你觉得怎么样呢？~找人做事，就下载“猪八戒”http://t.cn/8kVXcH0</string><string name="to_buy_server">立即购买</string><string name="wx_PartnerID">1218560001</string><string name="share_content_task">艾玛，到@猪八戒客户端 发个需求“%1$s”，就有人帮我搞定了，这稿件如何？ http://t.cn/8kVXcH0</string><string name="bounty_tv">赏金（元）</string><string name="reward_way_title">悬赏方式</string><string name="cancel">取消</string><string name="pay_confirm">确认支付 </string><string name="share_conent_task_two">我%2$s了一个需求：%1$s，你也赶紧来体验一下吧~找人做事，就下载“猪八戒”http://t.cn/8kVXcH0</string><string name="search_error_data">载入失败，轻触刷新</string><string name="comment2">评    论</string><string name="welcome_username">%1$s</string><string name="task_id_content">需求编号：%1$s</string><string name="do_watermelon">送西瓜</string><string name="pay_way_website">稍后在网站支付</string><string name="bounty_new_2">招标：众多服务商会主动报价，选择合适的服务商一对一为您服务，适合网站开发、软件开发、装修设计等周期较长、工作复杂的需求。
+</string><string name="dissselect">淘汰</string><string name="app_name">善食家商铺版</string><string name="bounty_new_3">计件：需要多个人帮你重复做一件简单地事情请选择计件，适合发送祝福、市场调查、微博论坛Q群推广等类型的需求。
+</string><string name="baidu_map_key">EC83AEFA0BEC054A8A0392BA78C67E4828D3A9E5</string><string name="web_1">网站类型： %1$s</string><string name="scan_text">将二维码放入框内, 即可自动扫描</string><color name="im_alpha80">#80000000</color><string name="deal_info_confirm">请确认交易信息</string><string name="rest_money">您的账户余额：</string><string name="album">从相册选取</string><string name="share_content_work_my">艾玛，到猪八戒APP发个需求“%1$s”，就有人帮我搞定了，这稿件如何？@猪八戒客户端  http://t.cn/8kVXcH0
+</string><string name="server_content_hint">给服务商留言</string><string name="zhanghu">账户余额：%1$s 元</string><string name="watermelon_data1">(%1$s)</string><string name="payfor">付款给TA</string><string name="amount_type_1">已托管</string><string name="amount_type_2">未托管</string><string name="skip">跳过</string><string name="do_shit">扔粪球</string><string name="userid_found">获取信息中, 请稍候…</string><string name="user_skill">TA擅长：%1$s</string><string name="server_price">￥%1$s</string><string name="pay_way_alipay">全部使用支付宝支付</string><string name="alternative">备选</string><string name="empty_msg">金额需要是1~7位数字组成的整数哦~</string><string name="share_content_task_my">我在@猪八戒客户端 发布了一个需求“%1$s”，好多高手在这儿呢！你也来瞧瞧吧！ http://t.cn/8kVXcH0</string><string name="task_final_time">发布时间：%1$s</string><string name="attend_num">%1$d人投标</string><string name="see_req_info">查看需求详情</string><string name="share_conent_two">我在猪八戒客户端发现了一个很有意思的服务：%1$s，你也赶紧来体验一下吧~找人做事，就下载“猪八戒”http://t.cn/8kVXcH0</string><string name="bind_phone_now">现在去绑定手机号码</string><string name="ok">确定</string><string name="server_title_des">%1$s出售:%2$s</string><string name="share_content">我在#猪八戒APP精选服务# 里发现了这个有趣的服务 “%1$s” ，@猪八戒客户端 http://t.cn/8kVXcH0</string><string name="payfor_title">付款给%1$s</string><string name="pic_page">%1$s / %2$s</string><string name="setting_phone_descrption2">绑定你的手机号码，可以直接用于登录猪八戒。猪八戒也会将重要的信息(如支付/提现/选稿/中标)通过短信通知你。我们不会将号码向第三方透露。</string><color name="im_alpha50">#50000000</color><string name="server_count">%1$s笔</string><string name="camera">拍照</string><string name="pay_way_per">%1$s元一稿 ></string><string name="logo_2">所属行业： %1$s</string><string name="logo_3">logo类型： %1$s</string><string name="logo_4">logo颜色： %1$s</string><string name="logo_5">赏金： %1$s</string><string name="logo_1">logo名称： %1$s</string><string name="head">修改头像</string><string name="jiaoyi_name">交易名称：%1$s </string></file><file path="F:\androidstudioWp\SSYStore\res\values\styles.xml" qualifiers=""><style name="style_list_priceprocess">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+    </style><style name="style_default_line1">
+        <item name="android:background">@color/line2</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:layout_marginLeft">3dip</item>
+        <item name="android:layout_marginRight">3dip</item>
+        <item name="android:gravity">center</item>
+    </style><style name="messageText">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center</item>
+    </style><style name="style_default_line4">
+        <item name="android:background">@color/line2</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:gravity">center</item>
+    </style><style name="style_default_line5">
+        <item name="android:background">@color/graylk</item>
+        <item name="android:layout_marginLeft">1dip</item>
+        <item name="android:layout_marginRight">1dip</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dip</item>
+    </style><style name="style_default_list_line">
+        <item name="android:background">@color/bgline</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+    </style><style name="style_default_line2">
+        <item name="android:background">@color/bgline</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dip</item>
+    </style><style name="style_default_line3">
+        <item name="android:background">@color/graylk</item>
+        <item name="android:layout_marginLeft">15dip</item>
+        <item name="android:layout_marginRight">15dip</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dip</item>
+    </style><style name="style_main_menu_text">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center_vertical</item>
+    </style><style name="style_progress_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">false</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowBackground">@color/alpha</item>
+        <item name="android:background">@color/alpha</item>
+        <!-- 背景透明 -->
+        <item name="android:backgroundDimEnabled">false</item>
+        <!-- 模糊 -->
+    </style><style name="style_all_list">
+        <item name="android:cacheColorHint">#00000000</item>
+        <item name="android:divider">#00000000</item>
+        <item name="android:headerDividersEnabled">false</item>
+        <item name="android:footerDividersEnabled">false</item>
+        <item name="android:fadingEdge">none</item>
+    </style><style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/alpha</item>
+        <item name="android:windowNoTitle">true</item>
+    </style><style name="animStyle" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <!-- <item name="android:indeterminateDrawable">@anim/bajieloading</item> -->
+    </style><style name="style_cat_list">
+        <item name="android:cacheColorHint">#ffffffff</item>
+        <item name="android:divider">@color/orange</item>
+        <item name="android:dividerHeight">1dp</item>
+        <item name="android:listSelector">@color/alpha</item>
+    </style><style name="style_big_level2_text">
+        <item name="android:textColor">@color/graydefault</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:paddingLeft">5dip</item>
+        <item name="android:paddingTop">5dip</item>
+        <item name="android:paddingRight">5dip</item>
+    </style><style name="style_classify_text">
+        <item name="android:textColor">@color/classifytext</item>
+        <item name="android:textSize">18sp</item>
+    </style><style name="style_red_line1">
+        <item name="android:background">@color/red</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dip</item>
+    </style><style name="style_setting_text">
+        <item name="android:textColor">@color/graydk</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center|left</item>
+        <item name="android:paddingLeft">10dip</item>
+    </style><style name="default_data_layout">
+        <item name="android:layout_weight">1</item>
+    </style><style name="AppTheme" parent="@android:style/Theme.Black">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style><style name="style_stream_list">
+        <item name="android:listSelector">@color/backgroud</item>
+        <item name="android:divider">#00000000</item>
+        <item name="android:dividerHeight">0dp</item>
+        <item name="android:headerDividersEnabled">false</item>
+        <item name="android:footerDividersEnabled">false</item>
+        <item name="android:fadingEdge">none</item>
+    </style><style name="style_cat_list_no_line">
+        <item name="android:cacheColorHint">#00000000</item>
+        <item name="android:divider">@color/red</item>
+        <item name="android:dividerHeight">1dp</item>
+        <item name="android:listSelector">@color/alpha</item>
+    </style><style name="style_default_line_nobuttom">
+        <item name="android:background">@color/graylk</item>
+        <item name="android:layout_marginTop">4dip</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dip</item>
+    </style><style name="style_orange_line2">
+        <item name="android:background">@color/freebg</item>
+        <item name="android:layout_width">1dip</item>
+        <item name="android:layout_height">match_parent</item>
+    </style><style name="style_orange_btn">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">26sp</item>
+        <!-- <item name="android:shadowColor">#ff000000</item> -->
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">0.5</item>
+        <item name="android:paddingLeft">12dip</item>
+        <item name="android:paddingRight">12dip</item>
+    </style><style name="style_setting_title2">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center|left</item>
+    </style><style name="style_comment2_text">
+        <item name="android:textColor">@color/graydefault</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center|left</item>
+        <item name="android:paddingLeft">10dip</item>
+    </style><style name="style_setting_title1">
+        <item name="android:textColor">@color/freebg</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center|left</item>
+        <item name="android:padding">10dip</item>
+    </style><style name="style_share_text">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">left|top</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingLeft">5dip</item>
+        <item name="android:paddingTop">5dip</item>
+        <item name="android:paddingRight">5dip</item>
+    </style><style name="style_comment_text">
+        <item name="android:textColor">@color/graydk</item>
+        <item name="android:gravity">center|left</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:paddingLeft">4dip</item>
+    </style><style name="style_market_button">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/graydefault</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:shadowColor">@color/graylk</item>
+        <item name="android:shadowRadius">0.5</item>
+        <item name="android:singleLine">true</item>
+    </style><style name="style_list_content">
+        <item name="android:textColor">@color/graydk</item>
+        <item name="android:textSize">14sp</item>
+    </style><style name="style_head">
+
+        <!-- 背景透明 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+    </style><style name="style_title">
+        <item name="android:textColor">@color/orange</item>
+        <item name="android:textSize">20sp</item>
+    </style><style name="style_default_line">
+        <item name="android:background">@color/graylk</item>
+        <item name="android:layout_marginTop">4dip</item>
+        <item name="android:layout_marginBottom">4dip</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dip</item>
+    </style><style name="style_default_line01">
+        <item name="android:background">@color/graylk</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+    </style><style name="style_black_line">
+        <item name="android:background">@color/black</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dip</item>
+    </style><style name="IM_Transparent">
+        <item name="android:windowBackground">@color/im_alpha50</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+
+    </style><style name="style_market_childrenbutton">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:ellipsize">end</item>
+    </style><style name="style_list_title">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+    </style></file><file path="F:\androidstudioWp\SSYStore\res\values-w820dp\dimens.xml" qualifiers="w820dp-v13"><dimen name="activity_horizontal_margin">64dp</dimen></file><file name="buttonredicon" path="F:\androidstudioWp\SSYStore\res\drawable-hdpi\buttonredicon.9.png" qualifiers="hdpi-v4" type="drawable"/></source><source path="F:\androidstudioWp\SSYStore\build\generated\res\rs\release"/><source path="F:\androidstudioWp\SSYStore\build\generated\res\generated\release"/></dataSet><dataSet config="release"><source path="F:\androidstudioWp\SSYStore\build-types\release\res"/></dataSet><mergedItems/></merger>

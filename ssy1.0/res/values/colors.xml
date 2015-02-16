@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="alpha">#00000000</color>
+    <color name="alpha50">#50000000</color>
+    <color name="alpha80">#80000000</color>
+    <color name="white">#FFF</color>
+    <color name="black">#FF000000</color>
+    <color name="red">#FFFF0000</color>
+    <color name="green">#FF3CB371</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="orange">#FF4800</color>
+    <color name="f90white">#90FFFFFF</color>
+    <color name="blue">#0000FF</color>
+    <color name="blue09b">#0099BB</color>
+    <color name="blue_dark">#5679a1</color>
+    <color name="mainsort">#666666</color>
+    <color name="CC6622">#ffCC6622</color>
+    <color name="f90gray4">#90b4b4b4</color>
+    <color name="classifytext">#FF665522</color>
+    <color name="coffee">#FF776622</color>
+    <color name="F5F5F5">#F5F5F5</color>
+    <color name="f4">#4C4C4C</color>
+    <color name="f7">#F7F7F7</color>
+    <color name="dark_orange">#b93d17</color>
+    
+    <color name="HAIZAKURA">#FFD7C4BB</color>
+    <color name="SHIRONEZUMI">#FFBDC0BA</color>
+    <color name="SHIRONERI">#FFFCFAF2</color>
+    
+    <!-- 二期  -->
+    <color name="grayselectbg">#FFDCDCDC</color>
+    <color name="graydefaultbg">#FFECECEC</color>
+    <color name="graydk">#FF222222</color>
+    <color name="main_list_font">#222222</color>
+    <color name="graydefault">#FF555555</color>
+    <color name="graylk">#FFB9B9B9</color>
+     <color name="graydd">#FF8D8D8D</color>
+     <color name="graycc">#FFC8C8C8</color>
+    <color name="freebg">#F5990A</color>
+    <color name="salebg">#C75324</color>
+    <color name="dygreen">#FF2F7D99</color>
+    <color name="servicebg">#9FD304</color>
+    <color name="grayp">#FF636363</color>
+    <color name="updateblack">#272727</color>
+    <color name="updateorange">#FF6934</color>
+    <color name="linkblue">#2E6898</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparents">#FF000000</color>
+    <color name="adbgcolor">#80000000</color>
+    <color name="hirestatus">#FFF2B73C</color>
+    <color name="donecolor">#FF808080</color>
+    <color name="roucolor">#FFCA8F78</color>
+    <color name="fontcolor">#FFCCCCCC</color>
+    <color name="mainfont">#FF3A2F2E</color>
+    <color name="releasebuttom">#FF3A2F2E</color>
+    <color name="microcolor">#FFFDFBF9</color>
+    <color name="graybg">#FFF8F8F8</color>
+    <color name="orangecolor">#FFFFF6E5</color>
+    <color name="release_service">#FFE7E7E7</color>
+    <color name="logincolor">#FFE7E7E7</color>
+    <color name="bgline">#FFDFDFDF</color>
+    <color name="upload_text">#FFB9B9B9</color>
+    <color name="fontcolor1">#FFBDBDBD</color>
+    <color name="glakbg2">#FFF9F9F9</color>
+    <color name="line2">#FFDBDBDB</color>
+    
+    <!-- 雇佣详情页TOP -->
+      <color name="state1">#FFF0EBCD</color>
+      <color name="state2">#FFDAE1F1</color>
+      <color name="state3">#FFD8EED7</color>
+      
+      <!-- 详情页提示背景 -->
+      <color name="orangecolor2">#fff7e5ca</color>
+      <color name="orange_title">#FFF48800</color>
+      <!-- 首页广告字体 -->
+       <color name="font_main">#FF333333</color>
+       <color name="fenlei_font">#b48553</color>
+       <color name="title_bar">#f1e9df</color>
+       <color name="title_fontcolor">#9b9b9b</color>
+       <color name="backgroud">#f1f1f1</color>
+       <color name="title_top">#f1e9df</color>
+       <color name="buttom_bg">#b3a28b</color>
+       <color name="buttom_fontcolor">#FF5B54</color>
+       <color name="font_list_color">#de2020</color>
+       <color name="pay_type_color">#202020</color>
+       <color name="zhongse_font_color">#b48553</color>
+       <color name="tigong_font_color">#9b9b9b</color>
+       <color name="jin_ri_ke_song_bg">#e9413a</color>
+    <color name="hongbao_color">#DD5054</color>
+    <color name="hongbao_color_gral">#9B9B9B</color>
+    <color name="volume_color_red">#EA5953</color>
+    <color name="volume_color_grad">#9B9B9B</color>
+</resources>

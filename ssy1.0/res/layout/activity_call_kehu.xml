@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+        
+         
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="善食家客户电话"
+        android:textColor="@color/white"
+        android:textSize="21sp"
+        />
+     <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="400-9999-227"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        
+        />
+  
+		<Chronometer
+		android:id ="@+id/chronometer"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:format="%s"
+		android:textSize="60px"
+		android:textColor="#00FF00"
+		/>
+		
+		
+      
+   
+   
+    <TableLayout
+            android:id="@+id/jianpanview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:stretchColumns="*" >
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/Digit1"
+                    style="@style/KeyPadStyle"
+                    android:text="1" />
+
+                <TextView
+                    android:id="@+id/Digit2"
+                    style="@style/KeyPadStyle"
+                    android:text="2" />
+
+                <TextView
+                    android:id="@+id/Digit3"
+                    style="@style/KeyPadStyle"
+                    android:text="3" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/Digit4"
+                    style="@style/KeyPadStyle"
+                    android:text="4" />
+
+                <TextView
+                    android:id="@+id/Digit5"
+                    style="@style/KeyPadStyle"
+                    android:text="5" />
+
+                <TextView
+                    android:id="@+id/Digit6"
+                    style="@style/KeyPadStyle"
+                    android:text="6" />
+            </TableRow> 
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/Digit7"
+                    style="@style/KeyPadStyle"
+                    android:text="7" />
+
+                <TextView
+                    android:id="@+id/Digit8"
+                    style="@style/KeyPadStyle"
+                    android:text="8" />
+
+                <TextView
+                    android:id="@+id/Digit9"
+                    style="@style/KeyPadStyle"
+                    android:text="9" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/Digitstar"
+                    style="@style/KeyPadStyle"
+                    android:text="*" />
+
+                <TextView
+                    android:id="@+id/Digit0"
+                    style="@style/KeyPadStyle"
+                    android:text="0" />
+
+                <TextView
+                    android:id="@+id/Digitj"
+                    style="@style/KeyPadStyle"
+                    android:text="#" />
+            </TableRow>
+        </TableLayout>
+    
+     </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp"
+        android:gravity="center|bottom"
+        >
+      
+           <Button
+            android:id="@+id/call_out"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:background="@drawable/red_button_selector"
+            android:gravity="center"
+            android:maxWidth="100dp"
+            android:layout_marginTop="3dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:singleLine="true"
+            android:text="挂    断"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+        
+    </LinearLayout>
+
+</LinearLayout>
